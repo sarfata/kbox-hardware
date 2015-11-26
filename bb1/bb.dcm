@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN75C3222E
+D 3-V to 5.5-V Multichannel RS-232 Line Driver/Receiver With +/-15-kV ESD (HBM) Protection
+K RS-232 MAX232
+$ENDCMP
+#
+$CMP WS2812RGB
+D One WS2812 based RGB module
+$ENDCMP
+#
+#End Doc Library
