@@ -1,8 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP INA19X
+D INA19X Current Shunt Monitor
+$ENDCMP
+#
 $CMP SN75C3222E
 D 3-V to 5.5-V Multichannel RS-232 Line Driver/Receiver With +/-15-kV ESD (HBM) Protection
 K RS-232 MAX232
+$ENDCMP
+#
+$CMP USB_OTG
+D micro/mini connector
+K USB USB_OTG USB_mini USB_micro
 $ENDCMP
 #
 $CMP WS2812RGB
