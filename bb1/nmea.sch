@@ -96,12 +96,12 @@ $EndComp
 $Comp
 L C_Small C20
 U 1 1 56606B8F
-P 6700 2400
-F 0 "C20" H 6710 2470 50  0000 L CNN
-F 1 ".1uF" H 6710 2320 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6700 2400 60  0001 C CNN
-F 3 "" H 6700 2400 60  0000 C CNN
-	1    6700 2400
+P 6150 2400
+F 0 "C20" H 6160 2470 50  0000 L CNN
+F 1 ".1uF" H 6160 2320 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6150 2400 60  0001 C CNN
+F 3 "" H 6150 2400 60  0000 C CNN
+	1    6150 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -178,18 +178,18 @@ Wire Wire Line
 Wire Wire Line
 	7100 2200 7400 2200
 Wire Wire Line
-	7400 2300 6700 2300
+	7400 2300 6150 2300
 Wire Wire Line
-	6700 2500 6700 2550
+	6150 2500 6150 2600
 $Comp
 L GND #PWR064
 U 1 1 56606BD2
-P 6700 2550
-F 0 "#PWR064" H 6700 2300 50  0001 C CNN
-F 1 "GND" H 6700 2400 50  0000 C CNN
-F 2 "" H 6700 2550 60  0000 C CNN
-F 3 "" H 6700 2550 60  0000 C CNN
-	1    6700 2550
+P 6150 2600
+F 0 "#PWR064" H 6150 2350 50  0001 C CNN
+F 1 "GND" H 6150 2450 50  0000 C CNN
+F 2 "" H 6150 2600 60  0000 C CNN
+F 3 "" H 6150 2600 60  0000 C CNN
+	1    6150 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -223,9 +223,9 @@ Wire Wire Line
 Wire Wire Line
 	8400 2500 8550 2500
 Wire Wire Line
-	8550 2500 8550 2700
+	8550 2500 8550 2800
 Wire Wire Line
-	8550 2700 8800 2700
+	8550 2800 8800 2800
 Text Label 7400 2400 2    60   ~ 0
 NMEA2_TX
 Text Label 7400 2500 2    60   ~ 0
@@ -317,13 +317,13 @@ Text HLabel 2350 2050 0    60   Input ~ 0
 CAN_RX
 Text HLabel 2350 1750 0    60   Input ~ 0
 CAN_TX
-Text HLabel 7400 2600 0    60   Input ~ 0
+Text HLabel 6750 2750 0    60   Input ~ 0
 SER2_RX
 Text HLabel 8800 2500 2    60   Input ~ 0
 SER1_RX
 Text HLabel 8800 2600 2    60   Input ~ 0
 SER1_TX
-Text HLabel 8800 2700 2    60   Input ~ 0
+Text HLabel 9300 2800 2    60   Input ~ 0
 SER2_TX
 Text HLabel 3200 4650 2    60   Input ~ 0
 ANALOG1
@@ -429,7 +429,7 @@ F 3 "" H 8950 1500 60  0000 C CNN
 $EndComp
 Text HLabel 8300 1300 0    60   Input ~ 0
 SER_EN
-Text Notes 9600 3100 2    60   ~ 0
+Text Notes 9500 3250 2    60   ~ 0
 When SER_EN (/POWERDOWN) is low, the drivers are not active, \npower is reduced to 1uA but receivers still work.
 $Comp
 L C_Small C19
@@ -697,9 +697,9 @@ F 3 "" H 4450 2000 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	4250 2050 4150 2050
+	4150 2050 4250 2050
 Wire Wire Line
-	4150 2050 4150 1350
+	4150 1350 4150 2050
 Wire Wire Line
 	4250 2150 4150 2150
 Wire Wire Line
@@ -947,4 +947,32 @@ Connection ~ 2300 5950
 Wire Wire Line
 	2050 6150 1850 6150
 Connection ~ 1850 6150
+Wire Wire Line
+	7400 2600 7300 2600
+Wire Wire Line
+	7300 2600 7300 2750
+Wire Wire Line
+	7300 2750 7250 2750
+$Comp
+L SOLDER_JUMPER SJ1
+U 1 1 566032C9
+P 7000 2750
+F 0 "SJ1" V 7080 2750 50  0000 C CNN
+F 1 "SOLDER_JUMPER" V 6900 2750 50  0000 C CNN
+F 2 "bb:SolderJumper" H 7000 2750 60  0001 C CNN
+F 3 "" H 7000 2750 60  0000 C CNN
+	1    7000 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L SOLDER_JUMPER SJ2
+U 1 1 56603397
+P 9050 2800
+F 0 "SJ2" V 9130 2800 50  0000 C CNN
+F 1 "SOLDER_JUMPER" V 8950 2800 50  0000 C CNN
+F 2 "bb:SolderJumper" H 9050 2800 60  0001 C CNN
+F 3 "" H 9050 2800 60  0000 C CNN
+	1    9050 2800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

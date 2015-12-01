@@ -9,6 +9,11 @@ D 3-V to 5.5-V Multichannel RS-232 Line Driver/Receiver With +/-15-kV ESD (HBM) 
 K RS-232 MAX232
 $ENDCMP
 #
+$CMP SOLDER_JUMPER
+D Solder Jump
+K Solder Jumper
+$ENDCMP
+#
 $CMP USB_OTG
 D micro/mini connector
 K USB USB_OTG USB_mini USB_micro
