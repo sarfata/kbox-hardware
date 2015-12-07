@@ -29,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:teensy_3.1
 LIBS:ESP8266
 LIBS:w_analog
 LIBS:w_device
