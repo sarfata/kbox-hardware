@@ -1,7 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BNO055
+D Intelligent 9-axis absolute orientation sensor
+F https://ae-bst.resource.bosch.com/media/products/dokumente/bno055/BST_BNO055_DS000_13.pdf
+$ENDCMP
+#
 $CMP INA19X
 D INA19X Current Shunt Monitor
+$ENDCMP
+#
+$CMP SN7534051
+D DUAL DIFFERENTIAL DRIVERS AND RECEIVERS (TIA/EIA-422-B)
+K rs422 422 transceiver
+F http://www.ti.com/lit/ds/symlink/sn7534050.pdf
 $ENDCMP
 #
 $CMP SN75C3222E
