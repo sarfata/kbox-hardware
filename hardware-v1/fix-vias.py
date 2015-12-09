@@ -9,6 +9,7 @@ pcb = LoadBoard(filename)
 # OSHPark annular ring minimum is 4 mils for 4 layer boards
 # Advanced Circuits is 5 mils
 minimumAnnularRing = 5
+fixed = 0
 
 for item in pcb.GetTracks():
     if type(item) is VIA:
@@ -20,6 +21,12 @@ for item in pcb.GetTracks():
         if annular < 5:
             print "Fixing via."
             item.SetWidth(FromMils(drill + minimumAnnularRing * 2))
+            fixed = fixed + 1
 
-pcb.Save("fixed-" + filename)
+if fixed > 0:
+    newfile = "fixed-" + filename
+    pcb.Save(newfile)
+    print "Fixed {} vias and saved PCB to new file: {}".format(fixed, newfile)
+else:
+    print "No need to fix anything. File unaltered."
 
