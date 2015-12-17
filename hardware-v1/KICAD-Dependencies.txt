@@ -1,0 +1,14 @@
+Required dependencies:
+
+## EE Schema
+
+ - [kicad_libs]: w_analog, w_device, conn
+ - [gsg-kicad-lib]: gsg-symbols
+
+## CV PCB
+
+ - [kicad_libs]: w_smd_trans (will disappear soon), w_misc_comp (rotary encoder)
+ - [gsg-kicad-lib]: gsg-modules (micro usb connector)
+
+[kicad_libs]: git://smisioto.eu/kicad_libs.git
+[gsg-kicad-lib]: git@github.com:greatscottgadgets/gsg-kicad-lib.git
