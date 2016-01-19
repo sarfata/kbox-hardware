@@ -1,0 +1,21 @@
+# v0.1 revA
+
+## Power problems
+
+- Ground / Power plane error on revA requires drilling through the vias on U1 and U7 to make sure the internal planes are not shorted (check for shorts between +3.3, GND and +5.
+- use wires to connect u7 heatsink to ground and u7 pin 3 to +5v.
+
+## WIFI CS
+
+- pin 63 of U8 needs to be separated from U3 (cut the trace between U8 and U3)
+- connect R1 east side (which is also connected to pin 63 of U8) or pin 1 of P10 (also pin 63 of U8) to pin 5 of U6
+
+## INA219
+
+- pinout on the board is completely wrong (used the SOT-23 pinout instead of the SOIC). They are very different. Not easily fixable. 
+- Do not mount U12
+
+## MKL02Z32 (U9) aka Teensy programmer
+
+- to be able to use a debugger, connect pin 7 (DEBUG) to pin 31 (PTA1/RESET), this way the chip will be forced in reset whenever the debug connector is plugged. This way all the SWD lines remain in high impedance mode and the debugger can drive them.
+
