@@ -164,7 +164,6 @@ NoConn ~ 3000 4000
 NoConn ~ 3000 3900
 NoConn ~ 3000 3800
 NoConn ~ 3000 3700
-NoConn ~ 3000 3600
 NoConn ~ 3000 3500
 Text Label 1100 4200 2    60   ~ 0
 DEBUG
@@ -601,7 +600,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 2600 6900 2600
 Wire Wire Line
-	6900 2600 6900 2700
+	6900 2700 6900 2600
 Connection ~ 6900 2700
 Wire Wire Line
 	7050 2500 6950 2500
@@ -1145,4 +1144,21 @@ Wire Wire Line
 Connection ~ 3350 4900
 Wire Wire Line
 	4100 4900 4100 4950
+Wire Wire Line
+	3000 3600 3100 3600
+$Comp
+L R R?
+U 1 1 569DEDB1
+P 3250 3600
+F 0 "R?" V 3330 3600 50  0000 C CNN
+F 1 "0" V 3250 3600 50  0000 C CNN
+F 2 "" V 3180 3600 50  0000 C CNN
+F 3 "" H 3250 3600 50  0000 C CNN
+	1    3250 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 3600 3500 3600
+Text Label 3500 3600 0    60   ~ 0
+DEBUG
 $EndSCHEMATC
