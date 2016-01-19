@@ -249,17 +249,6 @@ F 3 "" H 8700 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
-U 1 1 5653A007
-P 8500 4350
-F 0 "R3" V 8580 4350 50  0000 C CNN
-F 1 "10k" V 8500 4350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8430 4350 30  0001 C CNN
-F 3 "" H 8500 4350 30  0000 C CNN
-	1    8500 4350
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R5
 U 1 1 5653A0C7
 P 8200 4550
@@ -792,15 +781,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 4550 8650 4550
 Wire Wire Line
-	8500 4550 8500 4500
-Connection ~ 8500 4550
-Wire Wire Line
 	8050 4550 7750 4550
-Wire Wire Line
-	8500 4200 8500 4150
-Wire Wire Line
-	8500 4150 8950 4150
-Connection ~ 8950 4150
 Wire Wire Line
 	9500 3500 9500 4300
 Wire Wire Line
