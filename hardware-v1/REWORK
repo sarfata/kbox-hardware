@@ -2,13 +2,29 @@
 
 ## Power problems
 
+Problem:
+ - Ground and Power planes are missing some last minute changes and thus are shorting vias.
+
+Fix: 
 - Ground / Power plane error on revA requires drilling through the vias on U1 and U7 to make sure the internal planes are not shorted (check for shorts between +3.3, GND and +5.
 - use wires to connect u7 heatsink to ground and u7 pin 3 to +5v.
 
 ## WIFI CS
 
+Problem: The display DC pin need to be a hardware enabled chip select for the driver to work at full performance. Steal the WiFi CS pin and use it for the display.
+
+Fix:
 - pin 63 of U8 needs to be separated from U3 (cut the trace between U8 and U3)
 - connect R1 east side (which is also connected to pin 63 of U8) or pin 1 of P10 (also pin 63 of U8) to pin 5 of U6
+
+## WIFI
+
+Problem:
+ - To be able to program the WiFi chip, you must pull GPIO2 high.
+ - GPIO15 (which we stole for the display) must be pulled low.
+
+Fix:
+ - Add two wires to connect those pins to +3.3 and 0 respectively.
 
 ## INA219
 
