@@ -508,13 +508,7 @@ $EndComp
 Wire Wire Line
 	2400 5500 2600 5500
 Wire Wire Line
-	2900 5500 3000 5500
-Wire Wire Line
-	3000 5500 3250 5500
-Wire Wire Line
-	3250 5500 3450 5500
-Wire Wire Line
-	3450 5500 3600 5500
+	2900 5500 3600 5500
 Connection ~ 3000 5500
 Wire Wire Line
 	3250 5500 3250 5550
@@ -529,9 +523,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 5800 3000 5850
 Wire Wire Line
-	3000 5850 3250 5850
-Wire Wire Line
-	3250 5850 3450 5850
+	3000 5850 3450 5850
 Connection ~ 3250 5850
 Wire Wire Line
 	3300 2050 3350 2050
@@ -550,15 +542,11 @@ Wire Wire Line
 Wire Wire Line
 	2500 1950 1600 1950
 Wire Wire Line
-	1600 1700 1600 1950
-Wire Wire Line
-	1600 1950 1600 2000
+	1600 1700 1600 2000
 Wire Wire Line
 	3350 1750 3300 1750
 Wire Wire Line
-	3350 2250 3400 2250
-Wire Wire Line
-	3400 2250 3500 2250
+	3350 2250 3500 2250
 Wire Wire Line
 	3400 2300 3400 2250
 Connection ~ 3400 2250
@@ -570,13 +558,7 @@ Connection ~ 1600 1950
 Wire Wire Line
 	1700 6100 2600 6100
 Wire Wire Line
-	2900 6100 3000 6100
-Wire Wire Line
-	3000 6100 3250 6100
-Wire Wire Line
-	3250 6100 3450 6100
-Wire Wire Line
-	3450 6100 3600 6100
+	2900 6100 3600 6100
 Connection ~ 3000 6100
 Wire Wire Line
 	3250 6100 3250 6150
@@ -591,20 +573,12 @@ Wire Wire Line
 Wire Wire Line
 	3000 6400 3000 6450
 Wire Wire Line
-	3000 6450 3250 6450
-Wire Wire Line
-	3250 6450 3450 6450
+	3000 6450 3450 6450
 Connection ~ 3250 6450
 Wire Wire Line
 	2400 6700 2600 6700
 Wire Wire Line
-	2900 6700 3000 6700
-Wire Wire Line
-	3000 6700 3250 6700
-Wire Wire Line
-	3250 6700 3450 6700
-Wire Wire Line
-	3450 6700 3600 6700
+	2900 6700 3600 6700
 Connection ~ 3000 6700
 Wire Wire Line
 	3250 6700 3250 6750
@@ -619,9 +593,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 7000 3000 7050
 Wire Wire Line
-	3000 7050 3250 7050
-Wire Wire Line
-	3250 7050 3450 7050
+	3000 7050 3450 7050
 Connection ~ 3250 7050
 Wire Wire Line
 	2400 6000 2400 5500
@@ -630,27 +602,17 @@ Wire Wire Line
 Wire Wire Line
 	2400 6200 2400 6700
 Wire Wire Line
-	1650 4550 2750 4550
-Wire Wire Line
-	1650 4650 2750 4650
-Wire Wire Line
 	2750 4750 2250 4750
 Wire Wire Line
-	2250 4750 2250 5050
+	2250 4750 2250 5100
 Wire Wire Line
-	2250 5050 2250 5100
-Wire Wire Line
-	2450 4850 2700 4850
-Wire Wire Line
-	2700 4850 2750 4850
+	2450 4850 2750 4850
 Wire Wire Line
 	2700 4850 2700 4400
 Wire Wire Line
 	3650 4550 3750 4550
 Wire Wire Line
-	3750 4550 3750 4600
-Wire Wire Line
-	3750 4600 3750 4650
+	3750 4550 3750 4650
 Wire Wire Line
 	3750 4650 3650 4650
 Wire Wire Line
@@ -665,9 +627,7 @@ Connection ~ 2250 5050
 Wire Wire Line
 	8450 1700 8250 1700
 Wire Wire Line
-	8450 1100 8450 1200
-Wire Wire Line
-	8450 1200 8450 1700
+	8450 1100 8450 1700
 Wire Wire Line
 	8450 1200 8650 1200
 Wire Wire Line
@@ -680,9 +640,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 2400 7100 2600
 Wire Wire Line
-	8250 2100 8350 2100
-Wire Wire Line
-	8350 2100 8400 2100
+	8250 2100 8400 2100
 Wire Wire Line
 	6500 2200 7350 2200
 Wire Wire Line
@@ -698,9 +656,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 1850 6500 1850
 Wire Wire Line
-	6500 1250 7200 1250
-Wire Wire Line
-	7200 1250 7300 1250
+	6500 1250 7300 1250
 Wire Wire Line
 	7200 1250 7200 2000
 Wire Wire Line
@@ -722,9 +678,7 @@ Wire Wire Line
 Connection ~ 8350 2100
 Connection ~ 7200 1250
 Wire Wire Line
-	7600 1250 7800 1250
-Wire Wire Line
-	7800 1250 7950 1250
+	7600 1250 7950 1250
 Wire Wire Line
 	7800 1250 7800 1300
 Connection ~ 7800 1250
@@ -790,13 +744,9 @@ Wire Wire Line
 Wire Wire Line
 	7150 2050 7150 2100
 Wire Wire Line
-	7050 2050 7100 2050
+	7050 2050 7150 2050
 Wire Wire Line
-	7100 2050 7150 2050
-Wire Wire Line
-	7900 3900 8250 3900
-Wire Wire Line
-	8250 3900 9150 3900
+	7900 3900 9150 3900
 Wire Wire Line
 	8250 3900 8250 3800
 Wire Wire Line
@@ -838,11 +788,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 4900 9150 4900
 Wire Wire Line
-	8450 3800 8450 4600
-Wire Wire Line
-	8450 4600 8450 4900
-Wire Wire Line
-	8450 4900 8450 5800
+	8450 3800 8450 5800
 Connection ~ 8450 4600
 Connection ~ 8450 4900
 $Comp
@@ -876,4 +822,34 @@ Text Notes 7500 2950 0    60   ~ 0
 Note: NMEA_IN1+ goes to B, NMEA_IN1- goes to A, etc.\nThat is because + greater than - is defined as a "0" in the EIA422 spec, \nand so we want a 0 on the corresponding 3.3V serial line.
 Text Notes 3000 4300 0    60   ~ 0
 I2C Address: 0x40
+$Comp
+L R R?
+U 1 1 56A28792
+P 2100 4550
+F 0 "R?" V 2180 4550 50  0000 C CNN
+F 1 "10" V 2100 4550 50  0000 C CNN
+F 2 "" V 2030 4550 50  0000 C CNN
+F 3 "" H 2100 4550 50  0000 C CNN
+	1    2100 4550
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 56A28825
+P 2100 4650
+F 0 "R?" V 2180 4650 50  0000 C CNN
+F 1 "10" V 2100 4650 50  0000 C CNN
+F 2 "" V 2030 4650 50  0000 C CNN
+F 3 "" H 2100 4650 50  0000 C CNN
+	1    2100 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 4550 1950 4550
+Wire Wire Line
+	2250 4550 2750 4550
+Wire Wire Line
+	2750 4650 2250 4650
+Wire Wire Line
+	1950 4650 1650 4650
 $EndSCHEMATC
