@@ -761,21 +761,21 @@ Text Label 1700 6000 2    60   ~ 0
 12V_3
 Wire Wire Line
 	8250 1900 8500 1900
-Text Label 6500 1800 2    60   ~ 0
-NMEA_IN1+
 Text Label 6500 1700 2    60   ~ 0
+NMEA_IN1+
+Text Label 6500 1800 2    60   ~ 0
 NMEA_IN1-
-Text Label 6500 2200 2    60   ~ 0
-NMEA_IN2+
 Text Label 6500 2300 2    60   ~ 0
+NMEA_IN2+
+Text Label 6500 2200 2    60   ~ 0
 NMEA_IN2-
-Text Label 8500 1900 0    60   ~ 0
-NMEA_OUT1+
 Text Label 8500 2000 0    60   ~ 0
+NMEA_OUT1+
+Text Label 8500 1900 0    60   ~ 0
 NMEA_OUT1-
-Text Label 8500 2200 0    60   ~ 0
-NMEA_OUT2-
 Text Label 8500 2300 0    60   ~ 0
+NMEA_OUT2-
+Text Label 8500 2200 0    60   ~ 0
 NMEA_OUT2+
 Wire Wire Line
 	8500 1750 8400 1750
@@ -806,21 +806,21 @@ Text Label 9150 4100 2    60   ~ 0
 CAN+
 Text Label 9150 4000 2    60   ~ 0
 CAN-
-Text Label 9150 4200 2    60   ~ 0
-NMEA_IN1+
 Text Label 9150 4300 2    60   ~ 0
+NMEA_IN1+
+Text Label 9150 4200 2    60   ~ 0
 NMEA_IN1-
-Text Label 9150 4400 2    60   ~ 0
-NMEA_IN2+
 Text Label 9150 4500 2    60   ~ 0
+NMEA_IN2+
+Text Label 9150 4400 2    60   ~ 0
 NMEA_IN2-
-Text Label 9150 4700 2    60   ~ 0
-NMEA_OUT1+
 Text Label 9150 4800 2    60   ~ 0
+NMEA_OUT1+
+Text Label 9150 4700 2    60   ~ 0
 NMEA_OUT1-
-Text Label 9150 5000 2    60   ~ 0
-NMEA_OUT2+
 Text Label 9150 5100 2    60   ~ 0
+NMEA_OUT2+
+Text Label 9150 5000 2    60   ~ 0
 NMEA_OUT2-
 Text Label 9150 5300 2    60   ~ 0
 12V_1
@@ -872,4 +872,6 @@ Wire Wire Line
 	3350 1750 3350 1650
 Wire Wire Line
 	3350 1650 3450 1650
+Text Notes 7500 2950 0    60   ~ 0
+Note: NMEA_IN1+ goes to B, NMEA_IN1- goes to A, etc.\nThat is because + greater than - is defined as a "0" in the EIA422 spec, \nand so we want a 0 on the corresponding 3.3V serial line.
 $EndSCHEMATC
