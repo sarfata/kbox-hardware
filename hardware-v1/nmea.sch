@@ -874,4 +874,6 @@ Wire Wire Line
 	3350 1650 3450 1650
 Text Notes 7500 2950 0    60   ~ 0
 Note: NMEA_IN1+ goes to B, NMEA_IN1- goes to A, etc.\nThat is because + greater than - is defined as a "0" in the EIA422 spec, \nand so we want a 0 on the corresponding 3.3V serial line.
+Text Notes 3000 4300 0    60   ~ 0
+I2C Address: 0x40
 $EndSCHEMATC

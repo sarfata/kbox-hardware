@@ -396,8 +396,6 @@ Connection ~ 7450 1300
 Connection ~ 7150 1250
 NoConn ~ 7250 1600
 NoConn ~ 7350 1600
-Text Notes 1200 2600 0    60   ~ 0
-U13 and U15 share a decoupling cap \nbecause they are sitted next to each \nother and boards will rarely have both IC.
 Wire Wire Line
 	1400 1400 1950 1400
 Wire Wire Line
@@ -406,4 +404,8 @@ Wire Wire Line
 	1800 3700 2050 3700
 Wire Wire Line
 	1550 3800 2050 3800
+Text Notes 2100 1100 0    60   ~ 0
+I2C Address: 0x76
+Text Notes 9100 2350 0    60   ~ 0
+I2C Address: 0x28
 $EndSCHEMATC
