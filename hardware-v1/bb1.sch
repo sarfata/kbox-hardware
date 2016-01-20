@@ -125,7 +125,7 @@ MISO
 Text Label 9250 3200 0    60   ~ 0
 MOSI
 Text Label 9250 3100 0    60   ~ 0
-SS_DISP
+DISP_CS
 Text Label 9250 3000 0    60   ~ 0
 DISP_DC
 $Comp
@@ -288,7 +288,7 @@ $EndComp
 NoConn ~ 7650 6200
 NoConn ~ 7650 5500
 Text Label 7300 5500 2    60   ~ 0
-SS_SDCARD
+SDCARD_CS
 Text Label 7650 5700 2    60   ~ 0
 MOSI
 Text Label 7650 5900 2    60   ~ 0
@@ -589,14 +589,14 @@ $EndComp
 Text Label 4350 5400 0    60   ~ 0
 SCK
 Text Label 4350 5300 0    60   ~ 0
-SS_SDCARD
-Text Label 4350 5200 0    60   ~ 0
+SDCARD_CS
+Text Label 4350 4700 0    60   ~ 0
 DISP_DC
 Text Label 4350 6500 0    60   ~ 0
 BACKLIGHT
 Text Label 4350 4800 0    60   ~ 0
-SS_DISP
-Text Label 4350 4700 0    60   ~ 0
+DISP_CS
+Text Label 4350 5200 0    60   ~ 0
 WIFI_CS
 Text Label 4350 4600 0    60   ~ 0
 WS2812RGB
@@ -648,30 +648,6 @@ F 1 "+3.3V" H 9200 2690 50  0000 C CNN
 F 2 "" H 9200 2550 60  0000 C CNN
 F 3 "" H 9200 2550 60  0000 C CNN
 	1    9200 2550
-	1    0    0    -1  
-$EndComp
-Text Label 950  2900 2    60   ~ 0
-WIFI_CS
-$Comp
-L R R1
-U 1 1 566EBD79
-P 1050 2700
-F 0 "R1" V 1130 2700 50  0000 C CNN
-F 1 "10k" V 1050 2700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 980 2700 30  0001 C CNN
-F 3 "" H 1050 2700 30  0000 C CNN
-	1    1050 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR023
-U 1 1 566EFDD1
-P 1050 2500
-F 0 "#PWR023" H 1050 2350 50  0001 C CNN
-F 1 "+3.3V" H 1050 2640 50  0000 C CNN
-F 2 "" H 1050 2500 60  0000 C CNN
-F 3 "" H 1050 2500 60  0000 C CNN
-	1    1050 2500
 	1    0    0    -1  
 $EndComp
 Text Label 4350 6200 0    60   ~ 0
@@ -914,12 +890,6 @@ Connection ~ 9200 3100
 Wire Wire Line
 	9200 2550 9200 2600
 Wire Wire Line
-	1050 2500 1050 2550
-Wire Wire Line
-	950  2900 1050 2900
-Wire Wire Line
-	1050 2900 1050 2850
-Wire Wire Line
 	4200 6200 5400 6200
 Wire Wire Line
 	4200 6300 5400 6300
@@ -1049,25 +1019,7 @@ SCK
 Text Label 2000 3250 2    60   ~ 0
 WIFI_CS
 Text Label 2000 3350 2    60   ~ 0
-SS_SDCARD
-$Comp
-L GND #PWR031
-U 1 1 56662812
-P 1850 3600
-F 0 "#PWR031" H 1850 3350 50  0001 C CNN
-F 1 "GND" H 1850 3450 50  0000 C CNN
-F 2 "" H 1850 3600 60  0000 C CNN
-F 3 "" H 1850 3600 60  0000 C CNN
-	1    1850 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 3450 1850 3450
-Wire Wire Line
-	1850 3450 1850 3600
-Wire Wire Line
-	2000 3550 1850 3550
-Connection ~ 1850 3550
+SDCARD_CS
 $Comp
 L GND #PWR032
 U 1 1 56662D1C
@@ -1261,4 +1213,8 @@ Wire Wire Line
 	5050 2700 4750 2700
 Text Label 4750 2700 2    60   ~ 0
 WS2812RGB
+Text Label 2000 3450 2    60   ~ 0
+DISP_DC
+Text Label 2000 3550 2    60   ~ 0
+DISP_CS
 $EndSCHEMATC
