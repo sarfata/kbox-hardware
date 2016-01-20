@@ -1136,13 +1136,14 @@ $EndComp
 NoConn ~ 9500 5450
 NoConn ~ 10350 5450
 $Sheet
-S 5850 1050 500  700 
+S 5850 1050 700  700 
 U 566DFA72
 F0 "Sensors" 60
 F1 "sensors.sch" 60
 F2 "SCL" I L 5850 1350 60 
 F3 "SDA" I L 5850 1250 60 
 F4 "IMU_INT" I L 5850 1550 60 
+F5 "IMU_RESET" I L 5850 1650 60 
 $EndSheet
 Wire Wire Line
 	5850 1250 5700 1250
@@ -1239,4 +1240,10 @@ F 3 "" H 1800 2450 60  0000 C CNN
 	1    1800 2450
 	0    1    1    0   
 $EndComp
+Text Label 5700 1650 2    60   ~ 0
+IMU_RESET
+Wire Wire Line
+	5850 1650 5700 1650
+Text Label 4350 6000 0    60   ~ 0
+IMU_RESET
 $EndSCHEMATC
