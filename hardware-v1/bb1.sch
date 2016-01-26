@@ -472,7 +472,7 @@ F0 "NMEA" 60
 F1 "nmea.sch" 60
 F2 "CAN_RX" I R 2150 4900 60 
 F3 "CAN_TX" I R 2150 4800 60 
-F4 "SER2_RX" I R 2150 5200 60 
+F4 "SER2_RX" I L 1100 5300 60 
 F5 "SER1_RX" I R 2150 5400 60 
 F6 "SER1_TX" I R 2150 5500 60 
 F7 "SER2_TX" I R 2150 5300 60 
@@ -776,8 +776,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 5500 3100 5500
 Wire Wire Line
-	2150 5200 3100 5200
-Wire Wire Line
 	2150 5300 3100 5300
 Wire Wire Line
 	2150 5400 3100 5400
@@ -996,11 +994,6 @@ Wire Wire Line
 	2200 4450 2200 4300
 Connection ~ 2450 4900
 Wire Wire Line
-	1700 4500 2350 4500
-Wire Wire Line
-	2350 4500 2350 5200
-Connection ~ 2350 5200
-Wire Wire Line
 	1050 4300 1050 4600
 Wire Wire Line
 	1050 4600 2250 4600
@@ -1216,14 +1209,8 @@ Wire Wire Line
 	5850 1650 5700 1650
 Text Label 4350 6000 0    60   ~ 0
 IMU_RESET
-Text Label 1600 4450 2    60   ~ 0
-SER2_RX
 Text Label 1600 4550 2    60   ~ 0
 SER2_TX
-Wire Wire Line
-	1600 4450 1700 4450
-Wire Wire Line
-	1700 4450 1700 4500
 $Comp
 L CONN_01X10 P3
 U 1 1 56A6B77D
@@ -1236,9 +1223,36 @@ F 3 "" H 5600 5950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5400 5600 2    60   ~ 0
-SER2_RX
+SER2_RX_AUX
 Text Label 5400 5700 2    60   ~ 0
 SER2_TX
 Wire Wire Line
 	5150 5450 5300 5450
+Wire Wire Line
+	3100 5200 3050 5200
+Text Label 3050 5200 2    60   ~ 0
+SER2_RX
+Wire Wire Line
+	1100 5300 1050 5300
+Text Label 1050 5300 2    60   ~ 0
+SER2_RX_NMEA
+$Comp
+L CONN_01X03 P?
+U 1 1 56AA1637
+P 2000 7200
+F 0 "P?" H 2000 7400 50  0000 C CNN
+F 1 "CONN_01X03" V 2100 7200 50  0000 C CNN
+F 2 "" H 2000 7200 50  0000 C CNN
+F 3 "" H 2000 7200 50  0000 C CNN
+	1    2000 7200
+	-1   0    0    -1  
+$EndComp
+Text Label 2200 7100 0    60   ~ 0
+SER2_RX_NMEA
+Text Label 2200 7300 0    60   ~ 0
+SER2_RX_AUX
+Text Label 2200 7200 0    60   ~ 0
+SER2_RX
+Text Notes 1950 7600 0    60   ~ 0
+Jumper selection of Serial2 Source: \nNMEA or Aux port (GPS, Cellular, etc)
 $EndSCHEMATC

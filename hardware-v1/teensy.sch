@@ -356,7 +356,7 @@ L R R11
 U 1 1 56598794
 P 5700 2400
 F 0 "R11" V 5780 2400 50  0000 C CNN
-F 1 "470" V 5700 2400 50  0000 C CNN
+F 1 "2.4k" V 5700 2400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5630 2400 30  0001 C CNN
 F 3 "" H 5700 2400 30  0000 C CNN
 	1    5700 2400
@@ -600,7 +600,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 2600 6900 2600
 Wire Wire Line
-	6900 2700 6900 2600
+	6900 2600 6900 2700
 Connection ~ 6900 2700
 Wire Wire Line
 	7050 2500 6950 2500
@@ -1161,4 +1161,23 @@ Wire Wire Line
 	3400 3600 3500 3600
 Text Label 3500 3600 0    60   ~ 0
 DEBUG
+$Comp
+L ZENERsmall D?
+U 1 1 56ABEAB8
+P 6050 2550
+F 0 "D?" H 6050 2650 50  0000 C CNN
+F 1 "LM4040QCEM3-3.0/NOPB" H 6050 2450 50  0000 C CNN
+F 2 "" H 6050 2550 50  0000 C CNN
+F 3 "" H 6050 2550 50  0000 C CNN
+	1    6050 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 2450 6050 2400
+Connection ~ 6050 2400
+Wire Wire Line
+	6050 2650 6050 2700
+Connection ~ 6050 2700
+Text Notes 3250 2550 0    60   ~ 0
+The voltage reference is optional.\nWhen not used replace R11 with 470ohms.
 $EndSCHEMATC
