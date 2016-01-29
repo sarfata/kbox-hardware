@@ -1125,22 +1125,11 @@ Wire Wire Line
 	1350 3850 1350 4000
 Wire Wire Line
 	1350 3600 1350 3650
-$Comp
-L SOLDER_JUMPER SJ3
-U 1 1 56652374
-P 3350 4550
-F 0 "SJ3" V 3430 4550 50  0000 C CNN
-F 1 "SOLDER_JUMPER" V 3250 4550 50  0000 C CNN
-F 2 "bb:SolderJumper" H 3350 4550 60  0001 C CNN
-F 3 "" H 3350 4550 60  0000 C CNN
-	1    3350 4550
-	1    0    0    1   
-$EndComp
 Wire Wire Line
-	3350 4300 3350 4200
+	3350 4200 3350 4400
 Connection ~ 3350 4200
 Wire Wire Line
-	3350 4800 3350 4900
+	3350 4700 3350 4900
 Connection ~ 3350 4900
 Wire Wire Line
 	4100 4900 4100 4950
@@ -1180,4 +1169,15 @@ Wire Wire Line
 Connection ~ 6050 2700
 Text Notes 3250 2550 0    60   ~ 0
 The voltage reference is optional.\nWhen not used replace R11 with 470ohms.
+$Comp
+L R R?
+U 1 1 56AD8AD1
+P 3350 4550
+F 0 "R?" V 3430 4550 50  0000 C CNN
+F 1 "0 DNP" V 3350 4550 50  0000 C CNN
+F 2 "" V 3280 4550 50  0000 C CNN
+F 3 "" H 3350 4550 50  0000 C CNN
+	1    3350 4550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
