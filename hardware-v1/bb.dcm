@@ -29,6 +29,11 @@ D Solder Jump
 K Solder Jumper
 $ENDCMP
 #
+$CMP TL2575
+D 1-A Simple Step-Down switching voltage regulator
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Switcher/TI_TL2575.pdf
+$ENDCMP
+#
 $CMP USB_OTG
 D micro/mini connector
 K USB USB_OTG USB_mini USB_micro
