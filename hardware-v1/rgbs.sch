@@ -1,0 +1,397 @@
+EESchema Schematic File Version 2
+LIBS:bb
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ESP8266
+LIBS:w_analog
+LIBS:w_device
+LIBS:gsg-symbols
+LIBS:bb1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L WS2812RGB U4
+U 1 1 56A15737
+P 3750 4000
+F 0 "U4" H 3750 3750 60  0000 C CNN
+F 1 "N2K_RGB" H 3750 4250 60  0000 C CNN
+F 2 "bb:WS2818RGB" H 3750 4050 60  0001 C CNN
+F 3 "" H 3750 4050 60  0000 C CNN
+	1    3750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2812RGB U15
+U 1 1 56A1573E
+P 3750 4800
+F 0 "U15" H 3750 4550 60  0000 C CNN
+F 1 "NMEA_RGB" H 3750 5050 60  0000 C CNN
+F 2 "bb:WS2818RGB" H 3750 4850 60  0001 C CNN
+F 3 "" H 3750 4850 60  0000 C CNN
+	1    3750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR073
+U 1 1 56A1574F
+P 4400 5100
+F 0 "#PWR073" H 4400 4850 50  0001 C CNN
+F 1 "GND" H 4400 4950 50  0000 C CNN
+F 2 "" H 4400 5100 60  0000 C CNN
+F 3 "" H 4400 5100 60  0000 C CNN
+	1    4400 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR074
+U 1 1 56A15759
+P 3150 3650
+F 0 "#PWR074" H 3150 3500 50  0001 C CNN
+F 1 "+5V" H 3150 3790 50  0000 C CNN
+F 2 "" H 3150 3650 60  0000 C CNN
+F 3 "" H 3150 3650 60  0000 C CNN
+	1    3150 3650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3300 4900
+$Comp
+L C_Small C28
+U 1 1 56A15760
+P 2950 4050
+F 0 "C28" H 2960 4120 50  0000 L CNN
+F 1 ".1uF" H 2960 3970 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2950 4050 50  0001 C CNN
+F 3 "" H 2950 4050 50  0000 C CNN
+	1    2950 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR075
+U 1 1 56A15768
+P 2950 4150
+F 0 "#PWR075" H 2950 3900 50  0001 C CNN
+F 1 "GND" H 2950 4000 50  0000 C CNN
+F 2 "" H 2950 4150 60  0000 C CNN
+F 3 "" H 2950 4150 60  0000 C CNN
+	1    2950 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C31
+U 1 1 56A1576E
+P 2950 4600
+F 0 "C31" H 2960 4670 50  0000 L CNN
+F 1 ".1uF" H 2960 4520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2950 4600 50  0001 C CNN
+F 3 "" H 2950 4600 50  0000 C CNN
+	1    2950 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR076
+U 1 1 56A15779
+P 2950 4750
+F 0 "#PWR076" H 2950 4500 50  0001 C CNN
+F 1 "GND" H 2950 4600 50  0000 C CNN
+F 2 "" H 2950 4750 60  0000 C CNN
+F 3 "" H 2950 4750 60  0000 C CNN
+	1    2950 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2812RGB U5
+U 1 1 56A16394
+P 7250 4400
+F 0 "U5" H 7250 4150 60  0000 C CNN
+F 1 "WIFI_RGB" H 7250 4650 60  0000 C CNN
+F 2 "bb:WS2818RGB" H 7250 4450 60  0001 C CNN
+F 3 "" H 7250 4450 60  0000 C CNN
+	1    7250 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR077
+U 1 1 56A1639F
+P 6650 4650
+F 0 "#PWR077" H 6650 4400 50  0001 C CNN
+F 1 "GND" H 6650 4500 50  0000 C CNN
+F 2 "" H 6650 4650 60  0000 C CNN
+F 3 "" H 6650 4650 60  0000 C CNN
+	1    6650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR078
+U 1 1 56A163A5
+P 7850 4200
+F 0 "#PWR078" H 7850 4050 50  0001 C CNN
+F 1 "+5V" H 7850 4340 50  0000 C CNN
+F 2 "" H 7850 4200 60  0000 C CNN
+F 3 "" H 7850 4200 60  0000 C CNN
+	1    7850 4200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7700 4500
+$Comp
+L C_Small C30
+U 1 1 56A163AE
+P 7850 4450
+F 0 "C30" H 7860 4520 50  0000 L CNN
+F 1 ".1uF" H 7860 4370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7850 4450 50  0001 C CNN
+F 3 "" H 7850 4450 50  0000 C CNN
+	1    7850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR079
+U 1 1 56A163B7
+P 7850 4650
+F 0 "#PWR079" H 7850 4400 50  0001 C CNN
+F 1 "GND" H 7850 4500 50  0000 C CNN
+F 2 "" H 7850 4650 60  0000 C CNN
+F 3 "" H 7850 4650 60  0000 C CNN
+	1    7850 4650
+	1    0    0    -1  
+$EndComp
+Text HLabel 2750 1800 0    60   Input ~ 0
+WIFI_RGB
+Text HLabel 2750 1700 0    60   Input ~ 0
+TEENSY_RGB
+$Comp
+L SN74HCT245 U2
+U 1 1 56A1AACB
+P 3300 2050
+F 0 "U2" H 3300 2600 60  0000 C CNN
+F 1 "SN74HCT245" H 3300 1500 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" H 3250 2000 60  0001 C CNN
+F 3 "" H 3250 2000 60  0000 C CNN
+	1    3300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR080
+U 1 1 56A1B099
+P 3750 1300
+F 0 "#PWR080" H 3750 1150 50  0001 C CNN
+F 1 "+5V" H 3750 1440 50  0000 C CNN
+F 2 "" H 3750 1300 60  0000 C CNN
+F 3 "" H 3750 1300 60  0000 C CNN
+	1    3750 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR081
+U 1 1 56A1B102
+P 2750 2650
+F 0 "#PWR081" H 2750 2400 50  0001 C CNN
+F 1 "GND" H 2750 2500 50  0000 C CNN
+F 2 "" H 2750 2650 60  0000 C CNN
+F 3 "" H 2750 2650 60  0000 C CNN
+	1    2750 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 4100 3250 4100
+Wire Wire Line
+	3250 4100 3250 4400
+Wire Wire Line
+	3250 4400 4300 4400
+Wire Wire Line
+	4300 4400 4300 4700
+Wire Wire Line
+	4300 4700 4200 4700
+Wire Wire Line
+	4200 4100 4400 4100
+Wire Wire Line
+	4400 4100 4400 5100
+Wire Wire Line
+	4200 4900 4400 4900
+Connection ~ 4400 4900
+Wire Wire Line
+	3150 4700 3300 4700
+Wire Wire Line
+	3150 3650 3150 4700
+Wire Wire Line
+	2950 3900 3300 3900
+Connection ~ 3150 3900
+Wire Wire Line
+	2950 3950 2950 3900
+Wire Wire Line
+	2950 4500 2950 4450
+Wire Wire Line
+	2950 4450 3150 4450
+Connection ~ 3150 4450
+Wire Wire Line
+	2950 4700 2950 4750
+Wire Wire Line
+	6650 4300 6800 4300
+Wire Wire Line
+	6800 4500 6650 4500
+Wire Wire Line
+	6650 4500 6650 4650
+Wire Wire Line
+	7850 4200 7850 4350
+Wire Wire Line
+	7850 4300 7700 4300
+Connection ~ 7850 4300
+Wire Wire Line
+	7850 4550 7850 4650
+Wire Wire Line
+	3700 1600 3750 1600
+Wire Wire Line
+	3750 1600 3750 1300
+Wire Wire Line
+	2750 2500 2900 2500
+Wire Wire Line
+	2750 1900 2750 2650
+Wire Wire Line
+	2750 1700 2900 1700
+Wire Wire Line
+	2750 1800 2900 1800
+Wire Wire Line
+	3700 1700 3900 1700
+$Comp
+L GND #PWR082
+U 1 1 56A1B2CF
+P 3900 1700
+F 0 "#PWR082" H 3900 1450 50  0001 C CNN
+F 1 "GND" H 3900 1550 50  0000 C CNN
+F 2 "" H 3900 1700 60  0000 C CNN
+F 3 "" H 3900 1700 60  0000 C CNN
+	1    3900 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 1600 2900 1600
+Wire Wire Line
+	2850 1350 2850 1600
+Wire Wire Line
+	2900 1900 2750 1900
+Connection ~ 2750 2500
+Wire Wire Line
+	2900 2000 2750 2000
+Connection ~ 2750 2000
+Wire Wire Line
+	2900 2100 2750 2100
+Connection ~ 2750 2100
+Wire Wire Line
+	2900 2200 2750 2200
+Connection ~ 2750 2200
+Wire Wire Line
+	2900 2300 2750 2300
+Connection ~ 2750 2300
+Wire Wire Line
+	2900 2400 2750 2400
+Connection ~ 2750 2400
+Wire Wire Line
+	4200 3900 4400 3900
+Text Label 4400 3900 0    60   ~ 0
+TEENSY_RGB_DIN
+Text Label 6650 4300 2    60   ~ 0
+WIFI_RGB_DIN
+Wire Wire Line
+	3700 1800 4300 1800
+Wire Wire Line
+	3700 1900 4300 1900
+Text Label 4300 1800 0    60   ~ 0
+TEENSY_RGB_DIN
+Text Label 4300 1900 0    60   ~ 0
+WIFI_RGB_DIN
+Text HLabel 7150 1700 0    60   Input ~ 0
+TEENSY_RGB
+Text HLabel 7150 1850 0    60   Input ~ 0
+WIFI_RGB
+$Comp
+L R R28
+U 1 1 56A1C46F
+P 7550 1700
+F 0 "R28" V 7630 1700 50  0000 C CNN
+F 1 "0 DNP" V 7550 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7480 1700 50  0001 C CNN
+F 3 "" H 7550 1700 50  0000 C CNN
+	1    7550 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R29
+U 1 1 56A1C501
+P 7550 1850
+F 0 "R29" V 7630 1850 50  0000 C CNN
+F 1 "0 DNP" V 7550 1850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7480 1850 50  0001 C CNN
+F 3 "" H 7550 1850 50  0000 C CNN
+	1    7550 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 1700 7400 1700
+Wire Wire Line
+	7150 1850 7400 1850
+Wire Wire Line
+	7700 1700 8000 1700
+Wire Wire Line
+	7700 1850 8000 1850
+Text Label 8000 1850 0    60   ~ 0
+WIFI_RGB_DIN
+Text Label 8000 1700 0    60   ~ 0
+TEENSY_RGB_DIN
+Text Notes 4150 2700 0    60   ~ 0
+WS2812RGB require 5V signaling on DIN. This is why we have a level shifter.\nIn practice some work with 3.3V directly. You can decide to place the level\nshifter, or just use 0 ohm resistors depending on your mileage of WS2812\nleds.
+$Comp
+L C_Small C27
+U 1 1 56A1CB34
+P 3850 1450
+F 0 "C27" H 3860 1520 50  0000 L CNN
+F 1 ".1uF" H 3860 1370 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3850 1450 50  0001 C CNN
+F 3 "" H 3850 1450 50  0000 C CNN
+	1    3850 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1350 3850 1350
+Connection ~ 3750 1350
+Wire Wire Line
+	3850 1700 3850 1550
+Connection ~ 3850 1700
+$EndSCHEMATC
