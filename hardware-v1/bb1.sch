@@ -701,9 +701,9 @@ F 3 "" H 3750 2700 60  0000 C CNN
 	1    3750 2700
 	0    1    1    0   
 $EndComp
-Text Label 2300 5600 0    60   ~ 0
-SCL1
 Text Label 2300 5700 0    60   ~ 0
+SCL1
+Text Label 2300 5600 0    60   ~ 0
 SDA1
 NoConn ~ 3100 6500
 $Comp
