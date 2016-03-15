@@ -2,7 +2,7 @@
 
 KBox is an open-source platform to develop "smart boat" applications.
 
-!(Picture of KBox)[kbox.jpg]
+![Picture of KBox](kbox.jpg)
 
 > This repository contains all the hardware files for this project. For firmware,
 > please visit the [kbox-firmware](https://github.com/sarfata/kbox-firmware)
@@ -41,15 +41,12 @@ You can share and adapt this project and redistribute it as long as you give
 credit to the original authors, clearly indicate if changes were made, and you
 re-distribute under a similar license.
 
-## A note on git subtrees
+## Contributors
 
-This project makes heavy use of git subtrees to reference footprints from
-various libraries on the web. It works great and should make everyone's life
-easier but when you need to pull changes from the original repo or push back
-some updates, it can be slightly non trivial ...
+- [Thomas Sarlandie](https://github.com/sarfata/)
 
-So here is the best reference I have found:
-https://hpc.uni.lu/blog/2014/understanding-git-subtree/
+To contribute to this project, please make a pull-request via GitHub and add
+your name to the list of Contributors in that pull-request. Thanks!
 
 ## External libraries
 
@@ -70,3 +67,14 @@ For the PCB:
 
 [kicad_libs]: git://smisioto.eu/kicad_libs.git
 [gsg-kicad-lib]: git@github.com:greatscottgadgets/gsg-kicad-lib.git
+
+### A note on git subtrees
+
+This project use of git subtrees to reference footprints from various libraries
+on the web. It works great and should make everyone's life easier but when you
+need to pull changes from the original repo or push back some updates, it can be
+slightly non trivial ...
+
+So here is the best reference I have found:
+https://hpc.uni.lu/blog/2014/understanding-git-subtree/
+
