@@ -29,7 +29,7 @@ ModuleOutlineThickness=0.15
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=bb
+LibName1=kbox
 LibName2=power
 LibName3=device
 LibName4=transistors
