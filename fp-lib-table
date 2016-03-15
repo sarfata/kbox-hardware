@@ -3,6 +3,6 @@
   (lib (name w_smd_trans)(type KiCad)(uri /home/thomas/work/kicad-libraries/kicad_libs/modules/w_smd_trans.pretty)(options "")(descr ""))
   (lib (name w_misc_comp)(type KiCad)(uri /home/thomas/work/kicad-libraries/kicad_libs/modules/w_misc_comp.pretty)(options "")(descr ""))
   (lib (name gsg-modules)(type KiCad)(uri /home/thomas/work/kicad-libraries/gsg-kicad-lib/gsg-modules.pretty)(options "")(descr ""))
-  (lib (name bb)(type KiCad)(uri "$(KIPRJMOD)/bb.pretty")(options "")(descr ""))
+  (lib (name bb)(type KiCad)(uri "$(KIPRJMOD)/kbox.pretty")(options "")(descr ""))
   (lib (name w_conn_misc)(type KiCad)(uri /home/thomas/work/kicad-libraries/kicad_libs/modules/w_conn_misc.pretty)(options "")(descr ""))
 )
