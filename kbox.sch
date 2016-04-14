@@ -391,11 +391,11 @@ F 4 "1N5819HW-7-F" H 9450 1450 60  0001 C CNN "PartNumber"
 	0    1    1    0   
 $EndComp
 Text Notes 7350 7500 0    60   ~ 0
-Teensy based boat instrument. 
+KBox
 Text Notes 8150 7650 0    60   ~ 0
-2015 11 22
+2016 03 11
 Text Notes 7000 7050 0    60   ~ 0
-/!\ DRAFT /!\\n\nThomas Sarlandie - thomas@sarlandie.net\nCC-BY-SA
+KBox v1 revC\n\nThomas Sarlandie - thomas@sarlandie.net\nCC-BY-SA
 Text Notes 10600 7650 0    60   ~ 0
 0
 NoConn ~ 7500 3100
