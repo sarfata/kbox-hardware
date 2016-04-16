@@ -23,7 +23,7 @@ KBox hardware includes:
    to measure roll, pitch and yaw as well as a gyroscope,
  - An SDCard to record data.
 
-[Fine more news about KBox on
+[Find more news about KBox on
 hackaday.io](https://hackaday.io/project/11055-kbox).
 
 ## How to get KBox?
