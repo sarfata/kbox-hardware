@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/thomas/work/kbox-hardware/kbox.sch)
-    (date "Tue 07 Jun 2016 09:36:13 PM PDT")
+    (date "Tue 07 Jun 2016 09:48:19 PM PDT")
     (tool "Eeschema 4.1.0-alpha+201606061201+6885~45~ubuntu14.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -117,17 +117,17 @@
       (tstamp 56548F7E))
     (comp (ref C2)
       (value 330uF)
-      (footprint Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5)
+      (footprint Capacitors_SMD:c_elec_8x10.5)
       (fields
-        (field (name PartNumber) ECA-1AM331))
+        (field (name PartNumber) UUR1A331MNL1GS))
       (libsource (lib device) (part CP_Small))
       (sheetpath (names /) (tstamps /))
       (tstamp 56549034))
     (comp (ref C1)
       (value 100uF)
-      (footprint Capacitors_ThroughHole:C_Radial_D8_L11.5_P3.5)
+      (footprint Capacitors_SMD:c_elec_8x10.5)
       (fields
-        (field (name PartNumber) UVR1H101MPD))
+        (field (name PartNumber) UWT1H101MNL1GS))
       (libsource (lib device) (part CP_Small))
       (sheetpath (names /) (tstamps /))
       (tstamp 56549FA4))
