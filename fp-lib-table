@@ -5,4 +5,5 @@
   (lib (name gsg-modules)(type KiCad)(uri /home/thomas/work/kicad-libraries/gsg-kicad-lib/gsg-modules.pretty)(options "")(descr ""))
   (lib (name kbox)(type KiCad)(uri "$(KIPRJMOD)/kbox.pretty")(options "")(descr ""))
   (lib (name w_conn_misc)(type KiCad)(uri /home/thomas/work/kicad-libraries/kicad_libs/modules/w_conn_misc.pretty)(options "")(descr ""))
+  (lib (name ABS07-32.768KHZ-T)(type Legacy)(uri "$(KIPRJMOD)/libs/ABS07-32.768KHZ-T.mod")(options "")(descr ""))
 )

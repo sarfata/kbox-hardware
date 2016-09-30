@@ -33,6 +33,7 @@ LIBS:ESP8266
 LIBS:w_analog
 LIBS:w_device
 LIBS:gsg-symbols
+LIBS:ABS07-32.768KHZ-T
 LIBS:kbox-cache
 EELAYER 25 0
 EELAYER END
