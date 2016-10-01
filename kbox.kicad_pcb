@@ -3,7 +3,7 @@
   (general
     (links 379)
     (no_connects 0)
-    (area 36.924999 73.924999 137.075001 128.075001)
+    (area 31.949999 55.949999 144.050001 145.050001)
     (thickness 1.6)
     (drawings 94)
     (tracks 1918)
@@ -92,7 +92,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber-pcbng-v1d/))
+      (outputdirectory pcbng-gerber-v1d/))
   )
 
   (net 0 "")
@@ -5062,6 +5062,7 @@
   (module kbox:USB-MICROB-FCI-KBOX (layer F.Cu) (tedit 57EFDC09) (tstamp 57F000B7)
     (at 62.5 76.1 90)
     (path /5658DFA4/567BE158)
+    (attr smd)
     (fp_text reference J1 (at -4.7 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )

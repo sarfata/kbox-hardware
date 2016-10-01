@@ -22,5 +22,6 @@
   http://www.bbs.dianyuan.com/bbs/u/39/1141628341.pdf
 - inverted manually (180) the sdcard. should fix the footprint. I believa eai481
   says the pins should be at the top.
-- not sure about where the centroid of the usb connector should be.
+- not sure about where the centroid of the usb connector should be. (FIXED - I
+  think)
 
