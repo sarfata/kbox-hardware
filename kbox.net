@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/thomas/work/kbox-hardware/kbox.sch)
-    (date "Fri 30 Sep 2016 05:17:06 PM PDT")
+    (date "Sat 01 Oct 2016 08:50:16 AM PDT")
     (tool "Eeschema 201609300949+7268~55~ubuntu14.04.1-")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -461,7 +461,7 @@
       (tstamp 567B205D))
     (comp (ref J1)
       (value USB-MICRO-B-SHIELDED)
-      (footprint kbox:USB-MICROB-FCI-10103592-LONGPADS)
+      (footprint kbox:USB-MICROB-FCI-KBOX)
       (fields
         (field (name PartNumber) 10103592-0001LF))
       (libsource (lib gsg-symbols) (part USB-MICRO-B-SHIELDED))
