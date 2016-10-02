@@ -2,12 +2,14 @@
 
 - Generate GERBER and Drill files normally
 - Upload all files
-- Upload kicad_pcb file (for XYRS)
-- Download XYRS file from the "Bill of materials" tab (at top of page)
-- Generate BOM CSV
-- Run script to extend xyrs file with bom data
+- Generate BOM CSV with ./bom2csv.xsl
+- Use script to replace values in kicad_pcb file with part numbers
 
-    python ../macrofab-add-bom-to-xyrs.py macrofab.xyrs kbox.csv kbox.xyrs
+    python ../macrofab-bom-in-pcbnew-values.py kbox.kicad_pcb kbox.csv
+    kbox-macrofab.kicad_pcb
 
-- Re-upload xyrs file
+- Upload kicad_pcb file
 - Remove DNP parts as well as VIA and graphics (make them do not populate)
+- Replace components with the house parts equivalent where applicable
+- Fix WS2812 orientation (will need to fix the footprint)
+- Fix SDCard orientation (will need to fix the footprint)

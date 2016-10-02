@@ -92,7 +92,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory pcbng-gerber-v1d/))
+      (outputdirectory pcbng-gerber-v1e/))
   )
 
   (net 0 "")
