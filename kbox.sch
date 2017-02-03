@@ -659,17 +659,6 @@ F 4 "PEC12R-4220F-S0024" H 5300 4950 60  0001 C CNN "PartNumber"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW1
-U 1 1 5664C8A7
-P 5350 4500
-F 0 "SW1" H 5500 4610 50  0000 C CNN
-F 1 "SW_PUSH" H 5350 4420 50  0000 C CNN
-F 2 "kbox:SWITCH_SMD_3x6" H 5350 4500 60  0001 C CNN
-F 3 "" H 5350 4500 60  0000 C CNN
-	1    5350 4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_02X04 P2
 U 1 1 566595EE
 P 4150 2950
@@ -1147,13 +1136,9 @@ Wire Wire Line
 Wire Wire Line
 	850  6550 850  6600
 Wire Wire Line
-	4950 4500 4950 5100
-Wire Wire Line
 	4950 4750 5250 4750
 Wire Wire Line
 	5250 4750 5250 4800
-Wire Wire Line
-	5350 4800 5650 4800
 Wire Wire Line
 	5450 4800 5450 5200
 Wire Wire Line
@@ -1168,12 +1153,6 @@ Wire Wire Line
 	4800 4900 5150 4900
 Wire Wire Line
 	4600 5000 4200 5000
-Wire Wire Line
-	5050 4500 4950 4500
-Connection ~ 4950 4750
-Wire Wire Line
-	5650 4800 5650 4500
-Connection ~ 5450 4800
 Wire Wire Line
 	2500 4200 2500 4800
 Connection ~ 2500 4800
@@ -1348,4 +1327,8 @@ Wire Wire Line
 Wire Wire Line
 	10150 950  10150 1350
 Connection ~ 10150 1150
+Wire Wire Line
+	4950 4750 4950 5100
+Wire Wire Line
+	5350 4800 5450 4800
 $EndSCHEMATC
