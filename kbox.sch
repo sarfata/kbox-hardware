@@ -991,7 +991,7 @@ Wire Wire Line
 	9000 1700 9000 1800
 Connection ~ 9000 1700
 Wire Wire Line
-	9350 1150 9500 1150
+	9350 1150 9650 1150
 Wire Wire Line
 	9450 1300 9450 1150
 Connection ~ 9450 1150
@@ -1323,7 +1323,7 @@ F 4 "1N5819HW-7-F" H 10450 1150 60  0001 C CNN "PartNumber"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10100 1150 10300 1150
+	9950 1150 10300 1150
 Wire Wire Line
 	10150 950  10150 1350
 Connection ~ 10150 1150
