@@ -1,4 +1,4 @@
-update=Fri 30 Sep 2016 12:18:30 PM PDT
+update=Thu 01 Feb 2018 07:07:33 PM PST
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,16 +25,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.2
 ModuleOutlineThickness=0.15
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -75,3 +65,13 @@ LibName33=/home/thomas/work/kicad-libraries/kicad_libs/library/w_device
 LibName34=/home/thomas/work/kicad-libraries/gsg-kicad-lib/gsg-symbols
 LibName35=/home/thomas/work/kicad-libraries/kicad_libs/library/conn
 LibName36=libs/ABS07-32.768KHZ-T
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
