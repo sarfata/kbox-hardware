@@ -1,5 +1,27 @@
 # KBox
 
+
+## KBox Update - May 2020
+
+Thanks for your interest in KBox! As of May 2020, I am not manufacturing or
+selling KBox anymore. All the source code and design files remain available for
+your inspiration and if you have any question, feel free to reach out by twitter
+message, email or via a github issue.
+
+You might also be interested in my new project, inspired by KBox: [a better sailing analytics
+platform](https://www.chartedsails.com/?utm_medium=link&utm_source=github&utm_campaign=kbox).
+So if you are looking for a way to [improve your
+tacks](https://www.chartedsails.com/blog/learn-from-sailing-data-good-and-bad-tacks?utm_medium=link&utm_source=github&utm_campaign=kbox),
+[perfect your downind
+sailing](https://www.chartedsails.com/blog/learn-from-sailing-data-downwind-technique?utm_medium=link&utm_source=github&utm_campaign=kbox)
+or just [measure sailing angles and
+speeds](https://www.chartedsails.com/blog/five-tools-to-analyze-your-sailing-sessions?utm_medium=link&utm_source=github&utm_campaign=kbox),
+head over to
+[ChartedSails.com](https://www.chartedsails.com/?utm_medium=link&utm_source=github&utm_campaign=kbox).
+
+
+## What is KBox
+
 KBox is an open-source platform to develop "smart boat" applications.
 
 ![Picture of KBox](kbox-in-enclosure.jpg)
